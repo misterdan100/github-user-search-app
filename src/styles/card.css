@@ -1,0 +1,127 @@
+.card-container {
+    background-color: #1F2A48;
+    /* display: flex; */
+    width: 100%;
+    border-radius: 1.2rem;
+    padding: 3rem 1.5rem;
+    margin-top: 1.5rem;
+    transition: all 0.5s;
+}
+
+body.dark .card-container {
+    background-color: #FEFEFE;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, .1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile .username {
+    color: #0077FD;
+    font-size: 1.2rem;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    flex: 1;
+}
+
+
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.profile img:hover {
+    transform: scale(1.1) rotate(6deg);
+    border: 2px solid #0077FD;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+body.dark .profile .name {
+    color: black;
+}
+
+.description {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.stadistics {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #141C2F;
+    border-radius: 1rem;
+    padding: 1.8rem 3rem;
+    padding-left: 1.5rem;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+body.dark .stadistics {
+    background-color: #F4F7FF;
+}
+
+.stadistics:hover {
+    border: 1px solid #00408a;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.stadistics div {
+    width: 100%;
+    text-align: center;
+
+}
+
+.stadistics div p:last-child {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info svg {
+    width: 30px;
+}
+
+.info div a {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .3s;
+    text-decoration: none;
+    color: white;
+}
+
+body.dark .info div a {
+    color: #4C6A9D;
+}
+
+.info div a:hover {
+    color: #0077FD;
+}
