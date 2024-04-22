@@ -9,7 +9,7 @@ The project features different validations, error alert messages, and a button t
 
 [Live Demo](https://github-search-md.netlify.app/)
 
-<img width="1467" alt="screenshoot demo" src="..">
+<img width="1467" alt="screenshoot demo" src="https://raw.githubusercontent.com/misterdan100/github-user-search-app/b6d415dc20211af805a0431c40c4be3f7b6e17c8/src/assets/github-search-screenshot.jpg">
 
 ## Features
 
